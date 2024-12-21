@@ -68,18 +68,14 @@ def main():
                         virtual_device.write(e.EV_ABS, e.ABS_MT_TOUCH_MAJOR, 5)
                         virtual_device.write(e.EV_ABS, e.ABS_MT_WIDTH_MAJOR, 5)
 
-                    # Synchronize after every forwarded event
-#                    virtual_device.syn()
-
             # 2) KEY events (BTN_TOUCH)
             elif event.type == e.EV_KEY and event.code == e.BTN_TOUCH:
                 virtual_device.write(event.type, event.code, event.value)
-#                virtual_device.syn()
 
             # 3) MSC events (MSC_TIMESTAMP)
             elif event.type == e.EV_MSC and event.code == e.MSC_TIMESTAMP:
                 virtual_device.write(event.type, event.code, event.value)
-                virtual_device.syn()
+                virtual_device.syn() # Sync after each timestamp we sent
 
     except KeyboardInterrupt:
         print("Exiting on keyboard interrupt...")
