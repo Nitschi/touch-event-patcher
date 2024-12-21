@@ -1,0 +1,325 @@
+Input driver version is 1.0.1
+Input device ID: bus 0x3 vendor 0x1 product 0x1 version 0x1
+Input device name: "Virtual Touch Device"
+Supported events:
+  Event type 0 (EV_SYN)
+  Event type 1 (EV_KEY)
+    Event code 330 (BTN_TOUCH)
+  Event type 3 (EV_ABS)
+    Event code 0 (ABS_X)
+      Value      0
+      Min        0
+      Max    32767
+      Resolution     118
+    Event code 1 (ABS_Y)
+      Value      0
+      Min        0
+      Max    32767
+      Resolution     210
+    Event code 47 (ABS_MT_SLOT)
+      Value      0
+      Min        0
+      Max        9
+    Event code 48 (ABS_MT_TOUCH_MAJOR)
+      Value      0
+      Min        0
+      Max      255
+    Event code 50 (ABS_MT_WIDTH_MAJOR)
+      Value      0
+      Min        0
+      Max      255
+    Event code 53 (ABS_MT_POSITION_X)
+      Value      0
+      Min        0
+      Max    32767
+      Resolution     118
+    Event code 54 (ABS_MT_POSITION_Y)
+      Value      0
+      Min        0
+      Max    32767
+      Resolution     210
+    Event code 57 (ABS_MT_TRACKING_ID)
+      Value      0
+      Min        0
+      Max    65535
+  Event type 4 (EV_MSC)
+    Event code 5 (MSC_TIMESTAMP)
+  Event type 21 (EV_FF)
+Properties:
+  Property type 1 (INPUT_PROP_DIRECT)
+Testing ... (interrupt to exit)
+Event: time 1734798833.213079, type 3 (EV_ABS), code 57 (ABS_MT_TRACKING_ID), value 254
+Event: time 1734798833.213079, type 3 (EV_ABS), code 53 (ABS_MT_POSITION_X), value 15809
+Event: time 1734798833.213079, type 3 (EV_ABS), code 48 (ABS_MT_TOUCH_MAJOR), value 100
+Event: time 1734798833.213079, type 3 (EV_ABS), code 50 (ABS_MT_WIDTH_MAJOR), value 100
+Event: time 1734798833.213079, type 3 (EV_ABS), code 54 (ABS_MT_POSITION_Y), value 15489
+Event: time 1734798833.213079, type 1 (EV_KEY), code 330 (BTN_TOUCH), value 1
+Event: time 1734798833.213079, type 3 (EV_ABS), code 0 (ABS_X), value 15809
+Event: time 1734798833.213079, type 3 (EV_ABS), code 1 (ABS_Y), value 15489
+Event: time 1734798833.213079, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 0
+Event: time 1734798833.213079, -------------- SYN_REPORT ------------
+Event: time 1734798833.220816, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 8300
+Event: time 1734798833.220816, -------------- SYN_REPORT ------------
+Event: time 1734798833.228815, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 16600
+Event: time 1734798833.228815, -------------- SYN_REPORT ------------
+Event: time 1734798833.236811, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 25000
+Event: time 1734798833.236811, -------------- SYN_REPORT ------------
+Event: time 1734798833.245761, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 33300
+Event: time 1734798833.245761, -------------- SYN_REPORT ------------
+Event: time 1734798833.253819, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 41600
+Event: time 1734798833.253819, -------------- SYN_REPORT ------------
+Event: time 1734798833.261815, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 50000
+Event: time 1734798833.261815, -------------- SYN_REPORT ------------
+Event: time 1734798833.270822, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 58400
+Event: time 1734798833.270822, -------------- SYN_REPORT ------------
+Event: time 1734798833.278798, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 66700
+Event: time 1734798833.278798, -------------- SYN_REPORT ------------
+Event: time 1734798833.286815, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 75000
+Event: time 1734798833.286815, -------------- SYN_REPORT ------------
+Event: time 1734798833.295830, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 83100
+Event: time 1734798833.295830, -------------- SYN_REPORT ------------
+Event: time 1734798833.303826, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 91400
+Event: time 1734798833.303826, -------------- SYN_REPORT ------------
+Event: time 1734798833.311823, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 99800
+Event: time 1734798833.311823, -------------- SYN_REPORT ------------
+Event: time 1734798833.319803, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 108100
+Event: time 1734798833.319803, -------------- SYN_REPORT ------------
+Event: time 1734798833.328801, type 3 (EV_ABS), code 57 (ABS_MT_TRACKING_ID), value -1
+Event: time 1734798833.328801, type 1 (EV_KEY), code 330 (BTN_TOUCH), value 0
+Event: time 1734798833.328801, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 116400
+Event: time 1734798833.328801, -------------- SYN_REPORT ------------
+Event: time 1734798838.057088, type 3 (EV_ABS), code 57 (ABS_MT_TRACKING_ID), value 255
+Event: time 1734798838.057088, type 3 (EV_ABS), code 53 (ABS_MT_POSITION_X), value 16919
+Event: time 1734798838.057088, type 3 (EV_ABS), code 54 (ABS_MT_POSITION_Y), value 16431
+Event: time 1734798838.057088, type 1 (EV_KEY), code 330 (BTN_TOUCH), value 1
+Event: time 1734798838.057088, type 3 (EV_ABS), code 0 (ABS_X), value 16919
+Event: time 1734798838.057088, type 3 (EV_ABS), code 1 (ABS_Y), value 16431
+Event: time 1734798838.057088, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 0
+Event: time 1734798838.057088, -------------- SYN_REPORT ------------
+Event: time 1734798838.065812, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 8400
+Event: time 1734798838.065812, -------------- SYN_REPORT ------------
+Event: time 1734798838.073824, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 16700
+Event: time 1734798838.073824, -------------- SYN_REPORT ------------
+Event: time 1734798838.081840, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 25000
+Event: time 1734798838.081840, -------------- SYN_REPORT ------------
+Event: time 1734798838.090792, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 33300
+Event: time 1734798838.090792, -------------- SYN_REPORT ------------
+Event: time 1734798838.098819, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 41700
+Event: time 1734798838.098819, -------------- SYN_REPORT ------------
+Event: time 1734798838.106833, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 50000
+Event: time 1734798838.106833, -------------- SYN_REPORT ------------
+Event: time 1734798838.115832, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 58300
+Event: time 1734798838.115832, -------------- SYN_REPORT ------------
+Event: time 1734798838.123822, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 66700
+Event: time 1734798838.123822, -------------- SYN_REPORT ------------
+Event: time 1734798838.131817, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 75000
+Event: time 1734798838.131817, -------------- SYN_REPORT ------------
+Event: time 1734798838.139826, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 83400
+Event: time 1734798838.139826, -------------- SYN_REPORT ------------
+Event: time 1734798838.148847, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 91700
+Event: time 1734798838.148847, -------------- SYN_REPORT ------------
+Event: time 1734798838.156828, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 100000
+Event: time 1734798838.156828, -------------- SYN_REPORT ------------
+Event: time 1734798838.164817, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 108400
+Event: time 1734798838.164817, -------------- SYN_REPORT ------------
+Event: time 1734798838.173838, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 116700
+Event: time 1734798838.173838, -------------- SYN_REPORT ------------
+Event: time 1734798838.181815, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 125000
+Event: time 1734798838.181815, -------------- SYN_REPORT ------------
+Event: time 1734798838.189799, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 133300
+Event: time 1734798838.189799, -------------- SYN_REPORT ------------
+Event: time 1734798838.197842, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 141700
+Event: time 1734798838.197842, -------------- SYN_REPORT ------------
+Event: time 1734798838.206837, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 150000
+Event: time 1734798838.206837, -------------- SYN_REPORT ------------
+Event: time 1734798838.214817, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 158300
+Event: time 1734798838.214817, -------------- SYN_REPORT ------------
+Event: time 1734798838.222837, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 166700
+Event: time 1734798838.222837, -------------- SYN_REPORT ------------
+Event: time 1734798838.231836, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 175000
+Event: time 1734798838.231836, -------------- SYN_REPORT ------------
+Event: time 1734798838.239825, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 183400
+Event: time 1734798838.239825, -------------- SYN_REPORT ------------
+Event: time 1734798838.247785, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 191700
+Event: time 1734798838.247785, -------------- SYN_REPORT ------------
+Event: time 1734798838.256731, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 200000
+Event: time 1734798838.256731, -------------- SYN_REPORT ------------
+Event: time 1734798838.264802, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 208300
+Event: time 1734798838.264802, -------------- SYN_REPORT ------------
+Event: time 1734798838.272716, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 216700
+Event: time 1734798838.272716, -------------- SYN_REPORT ------------
+Event: time 1734798838.280792, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 225000
+Event: time 1734798838.280792, -------------- SYN_REPORT ------------
+Event: time 1734798838.289781, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 233400
+Event: time 1734798838.289781, -------------- SYN_REPORT ------------
+Event: time 1734798838.297766, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 241700
+Event: time 1734798838.297766, -------------- SYN_REPORT ------------
+Event: time 1734798838.305783, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 250000
+Event: time 1734798838.305783, -------------- SYN_REPORT ------------
+Event: time 1734798838.314825, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 258300
+Event: time 1734798838.314825, -------------- SYN_REPORT ------------
+Event: time 1734798838.322772, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 266700
+Event: time 1734798838.322772, -------------- SYN_REPORT ------------
+Event: time 1734798838.330774, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 275000
+Event: time 1734798838.330774, -------------- SYN_REPORT ------------
+Event: time 1734798838.338778, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 283400
+Event: time 1734798838.338778, -------------- SYN_REPORT ------------
+Event: time 1734798838.347828, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 291700
+Event: time 1734798838.347828, -------------- SYN_REPORT ------------
+Event: time 1734798838.355811, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 300000
+Event: time 1734798838.355811, -------------- SYN_REPORT ------------
+Event: time 1734798838.363801, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 308400
+Event: time 1734798838.363801, -------------- SYN_REPORT ------------
+Event: time 1734798838.372833, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 316700
+Event: time 1734798838.372833, -------------- SYN_REPORT ------------
+Event: time 1734798838.380775, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 325100
+Event: time 1734798838.380775, -------------- SYN_REPORT ------------
+Event: time 1734798838.388806, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 333400
+Event: time 1734798838.388806, -------------- SYN_REPORT ------------
+Event: time 1734798838.397828, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 341700
+Event: time 1734798838.397828, -------------- SYN_REPORT ------------
+Event: time 1734798838.405798, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 350000
+Event: time 1734798838.405798, -------------- SYN_REPORT ------------
+Event: time 1734798838.413804, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 358400
+Event: time 1734798838.413804, -------------- SYN_REPORT ------------
+Event: time 1734798838.421821, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 366700
+Event: time 1734798838.421821, -------------- SYN_REPORT ------------
+Event: time 1734798838.430818, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 375000
+Event: time 1734798838.430818, -------------- SYN_REPORT ------------
+Event: time 1734798838.438787, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 383400
+Event: time 1734798838.438787, -------------- SYN_REPORT ------------
+Event: time 1734798838.446717, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 391700
+Event: time 1734798838.446717, -------------- SYN_REPORT ------------
+Event: time 1734798838.455821, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 400100
+Event: time 1734798838.455821, -------------- SYN_REPORT ------------
+Event: time 1734798838.463825, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 408400
+Event: time 1734798838.463825, -------------- SYN_REPORT ------------
+Event: time 1734798838.471773, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 416700
+Event: time 1734798838.471773, -------------- SYN_REPORT ------------
+Event: time 1734798838.480817, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 425000
+Event: time 1734798838.480817, -------------- SYN_REPORT ------------
+Event: time 1734798838.488808, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 433400
+Event: time 1734798838.488808, -------------- SYN_REPORT ------------
+Event: time 1734798838.496816, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 441700
+Event: time 1734798838.496816, -------------- SYN_REPORT ------------
+Event: time 1734798838.504808, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 450000
+Event: time 1734798838.504808, -------------- SYN_REPORT ------------
+Event: time 1734798838.513795, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 458400
+Event: time 1734798838.513795, -------------- SYN_REPORT ------------
+Event: time 1734798838.521821, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 466700
+Event: time 1734798838.521821, -------------- SYN_REPORT ------------
+Event: time 1734798838.529802, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 475000
+Event: time 1734798838.529802, -------------- SYN_REPORT ------------
+Event: time 1734798838.538834, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 483400
+Event: time 1734798838.538834, -------------- SYN_REPORT ------------
+Event: time 1734798838.546827, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 491700
+Event: time 1734798838.546827, -------------- SYN_REPORT ------------
+Event: time 1734798838.554817, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 500000
+Event: time 1734798838.554817, -------------- SYN_REPORT ------------
+Event: time 1734798838.562805, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 508400
+Event: time 1734798838.562805, -------------- SYN_REPORT ------------
+Event: time 1734798838.571831, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 516700
+Event: time 1734798838.571831, -------------- SYN_REPORT ------------
+Event: time 1734798838.579773, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 525000
+Event: time 1734798838.579773, -------------- SYN_REPORT ------------
+Event: time 1734798838.587822, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 533400
+Event: time 1734798838.587822, -------------- SYN_REPORT ------------
+Event: time 1734798838.596828, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 541700
+Event: time 1734798838.596828, -------------- SYN_REPORT ------------
+Event: time 1734798838.604841, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 550000
+Event: time 1734798838.604841, -------------- SYN_REPORT ------------
+Event: time 1734798838.612808, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 558400
+Event: time 1734798838.612808, -------------- SYN_REPORT ------------
+Event: time 1734798838.621813, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 566700
+Event: time 1734798838.621813, -------------- SYN_REPORT ------------
+Event: time 1734798838.629532, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 575100
+Event: time 1734798838.629532, -------------- SYN_REPORT ------------
+Event: time 1734798838.637536, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 583400
+Event: time 1734798838.637536, -------------- SYN_REPORT ------------
+Event: time 1734798838.645802, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 591700
+Event: time 1734798838.645802, -------------- SYN_REPORT ------------
+Event: time 1734798838.654848, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 600100
+Event: time 1734798838.654848, -------------- SYN_REPORT ------------
+Event: time 1734798838.662799, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 608200
+Event: time 1734798838.662799, -------------- SYN_REPORT ------------
+Event: time 1734798838.670814, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 616500
+Event: time 1734798838.670814, -------------- SYN_REPORT ------------
+Event: time 1734798838.679810, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 624900
+Event: time 1734798838.679810, -------------- SYN_REPORT ------------
+Event: time 1734798838.687809, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 633200
+Event: time 1734798838.687809, -------------- SYN_REPORT ------------
+Event: time 1734798838.695836, type 3 (EV_ABS), code 57 (ABS_MT_TRACKING_ID), value -1
+Event: time 1734798838.695836, type 1 (EV_KEY), code 330 (BTN_TOUCH), value 0
+Event: time 1734798838.695836, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 641500
+Event: time 1734798838.695836, -------------- SYN_REPORT ------------
+Event: time 1734798840.686699, type 3 (EV_ABS), code 57 (ABS_MT_TRACKING_ID), value 256
+Event: time 1734798840.686699, type 3 (EV_ABS), code 53 (ABS_MT_POSITION_X), value 20019
+Event: time 1734798840.686699, type 3 (EV_ABS), code 54 (ABS_MT_POSITION_Y), value 14692
+Event: time 1734798840.686699, type 1 (EV_KEY), code 330 (BTN_TOUCH), value 1
+Event: time 1734798840.686699, type 3 (EV_ABS), code 0 (ABS_X), value 20019
+Event: time 1734798840.686699, type 3 (EV_ABS), code 1 (ABS_Y), value 14692
+Event: time 1734798840.686699, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 0
+Event: time 1734798840.686699, -------------- SYN_REPORT ------------
+Event: time 1734798840.694500, type 3 (EV_ABS), code 57 (ABS_MT_TRACKING_ID), value 257
+Event: time 1734798840.694500, type 3 (EV_ABS), code 53 (ABS_MT_POSITION_X), value 12919
+Event: time 1734798840.694500, type 3 (EV_ABS), code 54 (ABS_MT_POSITION_Y), value 17077
+Event: time 1734798840.694500, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 8400
+Event: time 1734798840.694500, -------------- SYN_REPORT ------------
+Event: time 1734798840.703584, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 16700
+Event: time 1734798840.703584, -------------- SYN_REPORT ------------
+Event: time 1734798840.711753, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 25000
+Event: time 1734798840.711753, -------------- SYN_REPORT ------------
+Event: time 1734798840.719748, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 33400
+Event: time 1734798840.719748, -------------- SYN_REPORT ------------
+Event: time 1734798840.728767, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 41700
+Event: time 1734798840.728767, -------------- SYN_REPORT ------------
+Event: time 1734798840.736748, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 50000
+Event: time 1734798840.736748, -------------- SYN_REPORT ------------
+Event: time 1734798840.744742, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 58400
+Event: time 1734798840.744742, -------------- SYN_REPORT ------------
+Event: time 1734798840.752702, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 66700
+Event: time 1734798840.752702, -------------- SYN_REPORT ------------
+Event: time 1734798840.761774, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 75000
+Event: time 1734798840.761774, -------------- SYN_REPORT ------------
+Event: time 1734798840.769748, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 83400
+Event: time 1734798840.769748, -------------- SYN_REPORT ------------
+Event: time 1734798840.777731, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 91700
+Event: time 1734798840.777731, -------------- SYN_REPORT ------------
+Event: time 1734798840.786730, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 100000
+Event: time 1734798840.786730, -------------- SYN_REPORT ------------
+Event: time 1734798840.794755, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 108400
+Event: time 1734798840.794755, -------------- SYN_REPORT ------------
+Event: time 1734798840.802743, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 116700
+Event: time 1734798840.802743, -------------- SYN_REPORT ------------
+Event: time 1734798840.811772, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 125100
+Event: time 1734798840.811772, -------------- SYN_REPORT ------------
+Event: time 1734798840.819749, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 133400
+Event: time 1734798840.819749, -------------- SYN_REPORT ------------
+Event: time 1734798840.827763, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 141700
+Event: time 1734798840.827763, -------------- SYN_REPORT ------------
+Event: time 1734798840.835754, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 150000
+Event: time 1734798840.835754, -------------- SYN_REPORT ------------
+Event: time 1734798840.844777, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 158400
+Event: time 1734798840.844777, -------------- SYN_REPORT ------------
+Event: time 1734798840.852751, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 166700
+Event: time 1734798840.852751, -------------- SYN_REPORT ------------
+Event: time 1734798840.860759, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 175100
+Event: time 1734798840.860759, -------------- SYN_REPORT ------------
+Event: time 1734798840.869790, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 183400
+Event: time 1734798840.869790, -------------- SYN_REPORT ------------
+Event: time 1734798840.877804, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 191700
+Event: time 1734798840.877804, -------------- SYN_REPORT ------------
+Event: time 1734798840.885783, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 200000
+Event: time 1734798840.885783, -------------- SYN_REPORT ------------
+Event: time 1734798840.893787, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 206700
+Event: time 1734798840.893787, -------------- SYN_REPORT ------------
+Event: time 1734798840.902811, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 215000
+Event: time 1734798840.902811, -------------- SYN_REPORT ------------
+Event: time 1734798840.910770, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 223300
+Event: time 1734798840.910770, -------------- SYN_REPORT ------------
+Event: time 1734798840.918772, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 231600
+Event: time 1734798840.918772, -------------- SYN_REPORT ------------
+Event: time 1734798840.927858, type 3 (EV_ABS), code 57 (ABS_MT_TRACKING_ID), value -1
+Event: time 1734798840.927858, type 1 (EV_KEY), code 330 (BTN_TOUCH), value 0
+Event: time 1734798840.927858, type 4 (EV_MSC), code 5 (MSC_TIMESTAMP), value 239900
+Event: time 1734798840.927858, -------------- SYN_REPORT ------------
