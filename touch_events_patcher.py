@@ -35,6 +35,8 @@ capabilities = {
     ]
 }
 
+print(e.EV_MSC)
+
 def main():
     try:
         # Open the real (physical) touch device
@@ -54,31 +56,18 @@ def main():
 
         # Read events in a loop
         for event in source_device.read_loop():
+            if event.type not in capabilities:
+                print(f"Unknown Event: Type {event.type} Code {event.code} Value {event.value}")
+                continue
+            virtual_device.write_event(event)
 
-            # 1) ABS events (single-touch + multi-touch)
-            if event.type == e.EV_ABS:
-                if event.code in [
-                    e.ABS_X,
-                    e.ABS_Y,
-                    e.ABS_MT_POSITION_X,
-                    e.ABS_MT_POSITION_Y,
-                    e.ABS_MT_TRACKING_ID
-                ]:
-                    # Forward the original event
-                    virtual_device.write(event.type, event.code, event.value)
+            # Once per complete touch event we add our events.
+            if event.code == e.ABS_MT_POSITION_Y:
+                virtual_device.write(e.EV_ABS, e.ABS_MT_TOUCH_MAJOR, SIMULATED_TOUCH_EVENT_WIDTH)
+                virtual_device.write(e.EV_ABS, e.ABS_MT_WIDTH_MAJOR, SIMULATED_TOUCH_EVENT_WIDTH)
 
-                    # Only when the code == ABS_MT_POSITION_X do we add the missing events
-                    if event.code == e.ABS_MT_POSITION_X:
-                        virtual_device.write(e.EV_ABS, e.ABS_MT_TOUCH_MAJOR, SIMULATED_TOUCH_EVENT_WIDTH)
-                        virtual_device.write(e.EV_ABS, e.ABS_MT_WIDTH_MAJOR, SIMULATED_TOUCH_EVENT_WIDTH)
-
-            # 2) KEY events (BTN_TOUCH)
-            elif event.type == e.EV_KEY and event.code == e.BTN_TOUCH:
-                virtual_device.write(event.type, event.code, event.value)
-
-            # 3) MSC events (MSC_TIMESTAMP)
-            elif event.type == e.EV_MSC and event.code == e.MSC_TIMESTAMP:
-                virtual_device.write(event.type, event.code, event.value)
+            if event.type == e.EV_MSC and event.code == e.MSC_TIMESTAMP:
+                # Seems to be the last event before a sync on the real device
                 virtual_device.syn() # Sync after each timestamp we sent
 
     except KeyboardInterrupt:
@@ -88,6 +77,7 @@ def main():
     except Exception as ex:
         print(f"Error: {ex}")
     finally:
+        print("Shutting Down the virtual Touch Device")
         # Clean up devices
         try:
             virtual_device.close()
