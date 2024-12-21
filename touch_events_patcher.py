@@ -4,7 +4,7 @@ import evdev
 from evdev import InputDevice, UInput, AbsInfo, ecodes as e
 
 # Path to the physical (source) touch device
-SOURCE_DEVICE_PATH = "/dev/input/event19"
+SOURCE_DEVICE_PATH = "/dev/input/event8"
 
 SIMULATED_TOUCH_EVENT_WIDTH = 100 # in surface units
 
@@ -14,15 +14,16 @@ capabilities = {
     # Absolute axes (both single-touch and multi-touch)
     e.EV_ABS: [
         # Single-touch axes
-        (e.ABS_X, AbsInfo(0, 0, 32767, 0, 0, 0)),
-        (e.ABS_Y, AbsInfo(0, 0, 32767, 0, 0, 0)),
+        (e.ABS_X, AbsInfo(0, 0, 32767, 0, 0, 118)),
+        (e.ABS_Y, AbsInfo(0, 0, 32767, 0, 0, 210)),
 
         # Multi-touch axes
-        (e.ABS_MT_POSITION_X, AbsInfo(0, 0, 32767, 0, 0, 0)),
-        (e.ABS_MT_POSITION_Y, AbsInfo(0, 0, 32767, 0, 0, 0)),
+        (e.ABS_MT_POSITION_X, AbsInfo(0, 0, 32767, 0, 0, 118)),
+        (e.ABS_MT_POSITION_Y, AbsInfo(0, 0, 32767, 0, 0, 210)),
         (e.ABS_MT_TOUCH_MAJOR, AbsInfo(0, 0, 255, 0, 0, 0)),
         (e.ABS_MT_WIDTH_MAJOR, AbsInfo(0, 0, 255, 0, 0, 0)),
         (e.ABS_MT_TRACKING_ID, AbsInfo(0, 0, 65535, 0, 0, 0)),
+        (e.ABS_MT_SLOT, AbsInfo(0, 0, 9, 0, 0, 0)),
     ],
     # Key events for BTN_TOUCH
     e.EV_KEY: [
@@ -46,7 +47,8 @@ def main():
             name="Virtual Touch Device",
             vendor=0x1,
             product=0x1,
-            version=0x1
+            version=0x1,
+            input_props=[e.INPUT_PROP_DIRECT]
         )
         print("Created virtual device: Virtual Touch Device")
 
