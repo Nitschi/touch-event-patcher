@@ -6,6 +6,8 @@ from evdev import InputDevice, UInput, AbsInfo, ecodes as e
 # Path to the physical (source) touch device
 SOURCE_DEVICE_PATH = "/dev/input/event19"
 
+SIMULATED_TOUCH_EVENT_WIDTH = 100 # in surface units
+
 # Define capabilities for the virtual device
 # We include all events we need to forward or emit.
 capabilities = {
@@ -65,8 +67,8 @@ def main():
 
                     # Only when the code == ABS_MT_POSITION_X do we add the missing events
                     if event.code == e.ABS_MT_POSITION_X:
-                        virtual_device.write(e.EV_ABS, e.ABS_MT_TOUCH_MAJOR, 5)
-                        virtual_device.write(e.EV_ABS, e.ABS_MT_WIDTH_MAJOR, 5)
+                        virtual_device.write(e.EV_ABS, e.ABS_MT_TOUCH_MAJOR, SIMULATED_TOUCH_EVENT_WIDTH)
+                        virtual_device.write(e.EV_ABS, e.ABS_MT_WIDTH_MAJOR, SIMULATED_TOUCH_EVENT_WIDTH)
 
             # 2) KEY events (BTN_TOUCH)
             elif event.type == e.EV_KEY and event.code == e.BTN_TOUCH:
